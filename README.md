@@ -8,8 +8,6 @@ Site institucional de uma confeitaria artesanal que oferece bolos feitos com rec
 
 **Marcos Librelon Raia**
 
-Projeto desenvolvido para a disciplina de Tecnologias Web — Mackenzie, 2026.
-
 ---
 
 ## Sobre o Projeto
