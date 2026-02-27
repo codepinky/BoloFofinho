@@ -5,13 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Marcos Librelon Raia">
     <title>Contato - Bolo Fofinho</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
     <main>
         <section class="contato-hero">
-            <video class="contato-hero-video" src="videos/nav_contato.mov" autoplay muted loop playsinline></video>
+            <video class="contato-hero-video" src="nav_contato.mov" autoplay muted loop playsinline width="640" height="360"></video>
             <header class="contato-nav">
                 <div class="nav-spacer"></div>
                 <nav>
@@ -36,31 +34,44 @@
             <span class="contato-subtitle">Encomende seu bolo</span>
             <h2 class="contato-title">Formulário de Contato</h2>
             <form class="contato-form">
-                <div class="contato-campo">
-                    <label for="nome">Nome</label>
-                    <input type="text" id="nome" placeholder="Digite seu nome...">
-                </div>
-                <div class="contato-campo">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" placeholder="Digite seu email...">
-                </div>
-                <div class="contato-campo">
-                    <label for="telefone">Telefone</label>
-                    <input type="tel" id="telefone" placeholder="Digite seu telefone...">
-                </div>
-                <div class="contato-campo">
-                    <label for="sabor">Sabor do bolo</label>
-                    <input type="text" id="sabor" placeholder="Ex: chocolate, cenoura, brigadeiro...">
-                </div>
-                <div class="contato-campo">
-                    <label for="data">Data desejada</label>
-                    <input type="date" id="data">
-                </div>
-                <div class="contato-campo">
-                    <label for="mensagem">Mensagem</label>
-                    <textarea id="mensagem" rows="5" placeholder="Digite sua mensagem..."></textarea>
-                </div>
-                <button type="submit" class="contato-btn">Enviar</button>
+                <table>
+                    <tr>
+                        <td><label for="nome">Nome</label></td>
+                        <td><input type="text" id="nome" name="nome" placeholder="Digite seu nome..." required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email</label></td>
+                        <td><input type="email" id="email" name="email" placeholder="Digite seu email..." required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="telefone">Telefone</label></td>
+                        <td><input type="tel" id="telefone" name="telefone" placeholder="(11) 99999-9999" pattern="[0-9\s\-\(\)]+"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="sabor">Sabor do bolo</label></td>
+                        <td>
+                            <select id="sabor" name="sabor" required>
+                                <option value="">Selecione...</option>
+                                <option value="chocolate">Chocolate</option>
+                                <option value="cenoura">Cenoura</option>
+                                <option value="fuba">Fubá</option>
+                                <option value="brigadeiro">Brigadeiro</option>
+                                <option value="redvelvet">Red Velvet</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="data">Data desejada</label></td>
+                        <td><input type="date" id="data" name="data" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="mensagem">Mensagem</label></td>
+                        <td><textarea id="mensagem" name="mensagem" rows="5" placeholder="Digite sua mensagem..." maxlength="500"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><button type="submit" class="contato-btn">Enviar</button></td>
+                    </tr>
+                </table>
             </form>
             <div class="contato-redes">
                 <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
@@ -73,6 +84,5 @@
         <p>Copyright © 2026 Bolo Fofinho. Todos os direitos reservados.</p>
         <p class="footer-credito">Desenvolvido e criado por Marcos Librelon Raia</p>
     </footer>
-    <script src="js/main.js"></script>
 </body>
 </html>
