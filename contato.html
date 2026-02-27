@@ -5,74 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Marcos Librelon Raia">
     <title>Contato - Bolo Fofinho</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
+    <header>
+        <h1>Bolo Fofinho</h1>
+        <p>Vendas online de bolos artesanais</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="contato.html">Fale Conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <main>
-        <section class="contato-hero">
-            <video class="contato-hero-video" src="videos/nav_contato.mov" autoplay muted loop playsinline></video>
-            <header class="contato-nav">
-                <div class="nav-spacer"></div>
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Início</a></li>
-                        <li><a href="sabores.html">Sabores</a></li>
-                        <li><a href="contato.html">Contato</a></li>
-                    </ul>
-                </nav>
-                <div class="nav-icon">
-                    <a href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                </div>
-            </header>
-            <div class="contato-hero-overlay"></div>
-            <div class="contato-hero-content">
-                <h1>Contate o Bolo Fofinho!</h1>
-                <p>Estamos aqui para ajudar você. Nos envie uma mensagem ou entre em contato pelas redes sociais!</p>
-                <a href="#formulario" class="contato-hero-btn">Enviar mensagem</a>
-            </div>
+        <section>
+            <h2>Fale Conosco</h2>
+            <p>Estamos aqui para ajudar você. Envie sua mensagem ou entre em contato pelas redes sociais!</p>
+            <video src="videos/nav_contato.mov" controls autoplay muted loop width="640" height="360">
+                Seu navegador não suporta o elemento de vídeo.
+            </video>
         </section>
-        <section id="formulario" class="contato-formulario">
-            <span class="contato-subtitle">Encomende seu bolo</span>
-            <h2 class="contato-title">Formulário de Contato</h2>
-            <form class="contato-form">
-                <div class="contato-campo">
-                    <label for="nome">Nome</label>
-                    <input type="text" id="nome" placeholder="Digite seu nome...">
-                </div>
-                <div class="contato-campo">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" placeholder="Digite seu email...">
-                </div>
-                <div class="contato-campo">
-                    <label for="telefone">Telefone</label>
-                    <input type="tel" id="telefone" placeholder="Digite seu telefone...">
-                </div>
-                <div class="contato-campo">
-                    <label for="sabor">Sabor do bolo</label>
-                    <input type="text" id="sabor" placeholder="Ex: chocolate, cenoura, brigadeiro...">
-                </div>
-                <div class="contato-campo">
-                    <label for="data">Data desejada</label>
-                    <input type="date" id="data">
-                </div>
-                <div class="contato-campo">
-                    <label for="mensagem">Mensagem</label>
-                    <textarea id="mensagem" rows="5" placeholder="Digite sua mensagem..."></textarea>
-                </div>
-                <button type="submit" class="contato-btn">Enviar</button>
+
+        <section>
+            <h2>Formulário de Contato</h2>
+            <p>Em breve você poderá enviar sua mensagem por aqui. (Formulário será desenvolvido na Aula 2)</p>
+            <form>
+                <p>Nome: <input type="text" name="nome"></p>
+                <p>Mensagem: <textarea name="mensagem" rows="3"></textarea></p>
+                <p><button type="submit">Enviar</button></p>
             </form>
-            <div class="contato-redes">
-                <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
-                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                <a href="#" aria-label="Telegram"><i class="fab fa-telegram-plane"></i></a>
-            </div>
         </section>
+
+        <section>
+            <h2>Como encomendar</h2>
+            <ol>
+                <li>Escolha o sabor do bolo</li>
+                <li>Informe a data desejada</li>
+                <li>Entre em contato pelo formulário ou redes sociais</li>
+            </ol>
+        </section>
+
+        <p><a href="index.html">Voltar para a página inicial</a></p>
     </main>
+
     <footer>
         <p>Copyright © 2026 Bolo Fofinho. Todos os direitos reservados.</p>
-        <p class="footer-credito">Desenvolvido e criado por Marcos Librelon Raia</p>
+        <p>Desenvolvido por Marcos Librelon Raia</p>
     </footer>
-    <script src="js/main.js"></script>
 </body>
 </html>
