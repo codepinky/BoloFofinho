@@ -1,6 +1,6 @@
 # Bolo Fofinho — Entrega Aula 1
 
-Duas páginas iniciais do site (HTML apenas, sem CSS).
+Páginas do site em HTML apenas (sem CSS, sem JavaScript).
 
 **Desenvolvedor:** Marcos Librelon Raia  
 **Disciplina:** Tecnologias Web — Mackenzie, 2026
@@ -8,7 +8,8 @@ Duas páginas iniciais do site (HTML apenas, sem CSS).
 ## Conteúdo
 
 - `index.html` — Homepage
-- `contato.html` — Página de contato (Fale Conosco)
+- `sabores.html` — Página de sabores
+- `contato.html` — Página de contato
 - Imagens e vídeos utilizados nas páginas
 
 ## Como executar
