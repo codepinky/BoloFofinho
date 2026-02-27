@@ -224,15 +224,26 @@ nav li:hover a::after {
     padding: 0.5rem;
     font-size: 3rem;
     text-decoration: none;
-    transition: color 0.2s;
+    transition: color 0.2s, transform 0.3s ease;
+    display: inline-block;
+    animation: spring-bounce 2s ease-in-out infinite;
 }
 
 .nav-icon a:hover {
     color: #8b5a2b;
+    animation: none;
+    transform: scale(1.15);
 }
 
 .nav-icon a::after {
     display: none;
+}
+
+@keyframes spring-bounce {
+    0%, 100% { transform: scale(1); }
+    25% { transform: scale(1.15); }
+    50% { transform: scale(0.95); }
+    75% { transform: scale(1.08); }
 }
 
 /* ===== HERO SECTION ===== */
