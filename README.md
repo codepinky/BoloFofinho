@@ -56,11 +56,13 @@ BoloFofinho-dev/
 | `aula1` | Páginas HTML (textos, listas, links, imagens, vídeo) |
 | `aula2` | Três páginas com formulário em tabela |
 | `aula3` | Três páginas com CSS aplicado |
+| `aula4` | Três páginas com position e background |
 
 ```bash
 git checkout aula1   # Entrega Aula 1
 git checkout aula2   # Entrega Aula 2
 git checkout aula3   # Entrega Aula 3
+git checkout aula4   # Entrega Aula 4
 git checkout main    # Versão completa
 ```
 
