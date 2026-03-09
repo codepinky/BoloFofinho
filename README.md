@@ -1,24 +1,26 @@
-# Bolo Fofinho — Entrega Aula 5
+# Bolo Fofinho — Entrega Aula 6
 
-Design responsivo da homepage para **480px** (celular) com CSS puro e media queries.
+Dados pessoais (fictícios) exibidos no rodapé via JavaScript com variáveis e `document.write()`.
 
 **Desenvolvedor:** Marcos Librelon Raia  
 **Disciplina:** Tecnologias Web — Mackenzie, 2026
 
 ## Conteúdo
 
-- `index.html` — Homepage responsiva
+- `index.html` — Homepage (dados no rodapé)
 - `sabores.html` — Página de sabores
-- `contato.html` — Página de contato
-- `style.css` — Estilos com media query `@media (max-width: 480px)`
-- Imagens e vídeos utilizados
+- `contato.html` — Página de contato com formulário
+- `style.css` — Estilos
+- `footer.js` — Script externo com variáveis e exibição dos dados
+- Imagens e vídeos
 
-## Aula 5 — Requisitos atendidos
+## Aula 6 — Requisitos atendidos
 
-- **Responsivo 480px:** hero, nav, historia, sobre, galeria, footer ajustados para celular
-- **CSS puro:** sem framework, apenas media queries
-- **Mesma organização das outras aulas:** arquivos na raiz do projeto
+- **Variáveis JavaScript** para armazenar: nome completo, ano, redes sociais, sexo, localização do polo
+- **document.write()** para exibir cada informação em linhas separadas
+- **Dados fictícios** conforme orientação da atividade
+- **Script externo** `footer.js` incluído nas três páginas
 
 ## Como executar
 
-Abra o arquivo `index.html` em um navegador e redimensione para 480px ou use as ferramentas de desenvolvedor para simular um dispositivo móvel.
+Abra o arquivo `index.html` em um navegador. Os dados aparecem no rodapé da página.
