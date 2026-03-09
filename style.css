@@ -974,3 +974,143 @@ footer .footer-credito {
     font-size: 0.85rem;
     opacity: 0.9;
 }
+
+/* ===== AULA 5: RESPONSIVO 480px (CELULAR) ===== */
+@media (max-width: 480px) {
+    .hero-nav {
+        padding: 3em 1rem 0.75rem;
+    }
+
+    .hero-content h1 {
+        font-size: 1.8rem;
+    }
+
+    .hero-content p {
+        font-size: 0.95rem;
+        margin-bottom: 1rem;
+    }
+
+    .hero-content {
+        padding: 1.5rem 1rem;
+    }
+
+    .hero-btn {
+        padding: 0.65rem 1.5rem;
+        font-size: 0.9rem;
+    }
+
+    .hero {
+        min-height: 400px;
+    }
+
+    .section-divider {
+        padding: 1.25rem 1rem;
+    }
+
+    .section-divider::before,
+    .section-divider::after {
+        max-width: 60px;
+    }
+
+    nav ul {
+        gap: 1rem;
+    }
+
+    nav a {
+        font-size: 0.9rem;
+        padding: 0.4rem 0.6rem;
+    }
+
+    .nav-icon a {
+        font-size: 2rem;
+    }
+
+    .historia {
+        padding: 2.5rem 1rem;
+    }
+
+    .historia-title {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .historia-subtitle {
+        font-size: 0.75rem;
+    }
+
+    .historia-citacao p {
+        font-size: 0.95rem;
+        padding-left: 1.75rem;
+    }
+
+    .historia-citacao::before {
+        font-size: 3.5rem;
+    }
+
+    .sobre {
+        padding: 2.5rem 1rem;
+    }
+
+    .sobre-title {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .sobre-texto {
+        font-size: 0.95rem;
+    }
+
+    .sobre-baralho {
+        height: 180px;
+    }
+
+    .sobre-carta {
+        width: 100px;
+        height: 140px;
+    }
+
+    .sobre-carta-1 {
+        transform: translateX(-55px) rotate(-10deg);
+    }
+
+    .sobre-carta-3 {
+        transform: translateX(55px) rotate(10deg);
+    }
+
+    .sobre-carta-1:hover {
+        transform: translateX(-55px) translateY(-8px) rotate(-10deg) scale(1.02);
+    }
+
+    .sobre-carta-3:hover {
+        transform: translateX(55px) translateY(-8px) rotate(10deg) scale(1.02);
+    }
+
+    .galeria-secao {
+        padding: 2.5rem 1rem;
+    }
+
+    .galeria-title {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .galeria-subtitle {
+        font-size: 0.75rem;
+    }
+
+    .galeria-grid {
+        gap: 0.75rem;
+    }
+
+    footer {
+        padding: 1.5rem 1rem;
+    }
+
+    footer p {
+        font-size: 0.85rem;
+    }
+
+    footer .footer-credito {
+        font-size: 0.75rem;
+    }
+}
