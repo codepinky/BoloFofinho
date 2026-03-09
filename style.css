@@ -5,10 +5,19 @@
     padding: 0;
 }
 
-/* ===== TIPOGRAFIA ===== */
+/* ===== AULA 4: POSITION + BACKGROUND ===== */
+/* Position: absolute (nav, hero-overlay, content), relative (sections, hero), fixed (body background) */
+/* Background: imagem de fundo nas três páginas */
 body {
     font-family: 'Lato', sans-serif;
+    background-image: url('sobre_img1.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #faf8f5;
 }
+
+/* ===== TIPOGRAFIA ===== */
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Playfair Display', serif;
@@ -224,26 +233,15 @@ nav li:hover a::after {
     padding: 0.5rem;
     font-size: 3rem;
     text-decoration: none;
-    transition: color 0.2s, transform 0.3s ease;
-    display: inline-block;
-    animation: spring-bounce 2s ease-in-out infinite;
+    transition: color 0.2s;
 }
 
 .nav-icon a:hover {
     color: #8b5a2b;
-    animation: none;
-    transform: scale(1.15);
 }
 
 .nav-icon a::after {
     display: none;
-}
-
-@keyframes spring-bounce {
-    0%, 100% { transform: scale(1); }
-    25% { transform: scale(1.15); }
-    50% { transform: scale(0.95); }
-    75% { transform: scale(1.08); }
 }
 
 /* ===== HERO SECTION ===== */

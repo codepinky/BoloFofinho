@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Marcos Librelon Raia">
     <title>Bolo Fofinho</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
     <main>
         <section class="hero">
-            <video class="hero-video" src="videos/herosection.mov" autoplay muted loop playsinline></video>
+            <video class="hero-video" src="herosection.mov" autoplay muted loop playsinline></video>
             <header class="hero-nav">
                 <div class="nav-spacer"></div>
                 <nav>
@@ -44,7 +44,7 @@
                     <p>Já são mais de <strong>5.000 bolos</strong> entregues e milhares de sorrisos em festas, aniversários e momentos especiais por toda a cidade.</p>
                 </blockquote>
                 <div class="historia-card">
-                    <img src="images/conhecanos_sec.png" alt="">
+                    <img src="conhecanos_sec.png" alt="">
                 </div>
             </div>
         </section>
@@ -59,9 +59,9 @@
                 é só entrar em contato pelo WhatsApp ou redes sociais informando o sabor, o tamanho e a data. 
                 Você pode retirar no local ou solicitar entrega!</p>
                 <div class="sobre-baralho">
-                    <div class="sobre-carta sobre-carta-1"><img src="images/sobre/sobre_img1.jpeg" alt=""></div>
-                    <div class="sobre-carta sobre-carta-2"><img src="images/sobre/sobre_img2.jpeg" alt=""></div>
-                    <div class="sobre-carta sobre-carta-3"><img src="images/sobre/sobre_img3.jpeg" alt=""></div>
+                    <div class="sobre-carta sobre-carta-1"><img src="sobre_img1.jpeg" alt=""></div>
+                    <div class="sobre-carta sobre-carta-2"><img src="sobre_img2.jpeg" alt=""></div>
+                    <div class="sobre-carta sobre-carta-3"><img src="sobre_img3.jpeg" alt=""></div>
                 </div>
             </div>
         </section>
@@ -70,16 +70,16 @@
             <span class="galeria-subtitle">Nossos sabores</span>
             <h2 class="galeria-title">Galeria</h2>
             <div class="galeria-grid">
-                <div class="galeria-item"><img src="images/bolos/bolo_choco.png" alt="Bolo de chocolate"></div>
-                <div class="galeria-item"><img src="images/bolos/bolo_cenoura.png" alt="Bolo de cenoura"></div>
-                <div class="galeria-item"><img src="images/bolos/bolo_fuba.png" alt="Bolo de fubá"></div>
-                <div class="galeria-item"><img src="images/bolos/bolo_laranja.png" alt="Bolo de laranja"></div>
-                <div class="galeria-item"><img src="images/bolos/bolo_red.png" alt="Bolo red velvet"></div>
-                <div class="galeria-item"><img src="images/bolos/bolo_goiaba.jpeg" alt="Bolo de goiaba"></div>
-                <div class="galeria-item"><img src="images/bolos/bolo_prest.png" alt="Bolo prestígio"></div>
-                <div class="galeria-item"><img src="images/bolos/bolo_brig.png" alt="Bolo brigadeiro"></div>
-                <div class="galeria-item"><img src="images/bolos/bolo_limao.png" alt="Bolo de limão"></div>
-                <div class="galeria-item"><img src="images/bolos/bolo_banana.png" alt="Bolo de banana"></div>
+                <div class="galeria-item"><img src="bolo_choco.png" alt="Bolo de chocolate"></div>
+                <div class="galeria-item"><img src="bolo_cenoura.png" alt="Bolo de cenoura"></div>
+                <div class="galeria-item"><img src="bolo_fuba.png" alt="Bolo de fubá"></div>
+                <div class="galeria-item"><img src="bolo_laranja.png" alt="Bolo de laranja"></div>
+                <div class="galeria-item"><img src="bolo_red.png" alt="Bolo red velvet"></div>
+                <div class="galeria-item"><img src="bolo_goiaba.jpeg" alt="Bolo de goiaba"></div>
+                <div class="galeria-item"><img src="bolo_prest.png" alt="Bolo prestígio"></div>
+                <div class="galeria-item"><img src="bolo_brig.png" alt="Bolo brigadeiro"></div>
+                <div class="galeria-item"><img src="bolo_limao.png" alt="Bolo de limão"></div>
+                <div class="galeria-item"><img src="bolo_banana.png" alt="Bolo de banana"></div>
             </div>
         </section>
     </main>
@@ -87,6 +87,8 @@
         <p>Copyright © 2026 Bolo Fofinho. Todos os direitos reservados.</p>
         <p class="footer-credito">Desenvolvido e criado por Marcos Librelon Raia</p>
     </footer>
-    <script src="js/main.js"></script>
+    <script>
+        document.querySelector('.hero-video').playbackRate = 0.75;
+    </script>
 </body>
 </html>
